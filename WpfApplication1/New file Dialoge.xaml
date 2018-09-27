@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
+        Topmost="True"
         Title="New Project" Height="134.453" Width="261.344">
     <Grid>
         <Label x:Name="label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">Enter new project name</Label>

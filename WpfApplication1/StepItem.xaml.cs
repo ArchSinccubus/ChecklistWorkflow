@@ -77,6 +77,10 @@ namespace WpfApplication1
             this.Label.Content = step.Title;
             this.Description.Text = step.Description;
             this.Checked.IsChecked = step.Checked;
+            if (step.Checked)
+            {
+                this.Background = Brushes.LightGray;
+            }
             this.lastStepCompleted = step.LastChecked;
             this.Tips.Document.Blocks.Clear();
             this.Tips.Document.Blocks.Add(new Paragraph(new Run(step.Tips)));
@@ -104,6 +108,7 @@ namespace WpfApplication1
         private void Checked_Checked(object sender, RoutedEventArgs e)
         {
 
+            this.Background = Brushes.LightGray;
                 baseStep.Checked = (bool)Checked.IsChecked;
                 ((MainWindow)Application.Current.MainWindow).SaveSave(((MainWindow)Application.Current.MainWindow).SaveName);
 
