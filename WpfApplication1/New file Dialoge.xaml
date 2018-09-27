@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="New Project" Height="129.411" Width="253.781">
+        Title="New Project" Height="134.453" Width="261.344">
     <Grid>
         <Label x:Name="label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">Enter new project name</Label>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="226"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226"/>
         <Button x:Name="button" Content="Create" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
         <Button x:Name="button1" Content="Cancel" HorizontalAlignment="Left" Margin="161,69,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
 

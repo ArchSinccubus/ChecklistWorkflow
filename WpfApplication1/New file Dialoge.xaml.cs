@@ -31,8 +31,12 @@ namespace WpfApplication1
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            ((MainWindow)Application.Current.MainWindow).createSave(textBox.Text);
-            this.Close();
+            if (textBox.Text != "")
+            {
+                ((MainWindow)Application.Current.MainWindow).createSave(textBox.Text);
+                this.Close();
+            }
+
         }
 
     }

@@ -33,6 +33,6 @@
                 </MenuItem>
             </Menu>
         </DockPanel>
-        <ListView x:Name="mainList" Grid.Row="1" />
+        <ListView x:Name="mainList" Grid.Row="1" ScrollViewer.CanContentScroll="False"/>
     </Grid>
 </Window>
