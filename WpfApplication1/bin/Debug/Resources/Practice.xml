@@ -7,4 +7,42 @@
       <Link ref="https://line-of-action.com/"/>
     </Links>
   </Title>
+  <Title Stage='1' stepName = "Perspective Training" Checked="F">
+    <Description Data="Pick a bunch of Geometrical Shapes and Draw them in 4 different perspectives each"></Description>
+    <Links>
+      <Tips text="Be sure to actually DO this excersice! You need to get good, you won't be able to make anything pretty if you slack off on figure drawing! Remember, it's not as crucual to get anatomy right, as much as getting the *figure* right. Get the flow of the character, not her pefect anatomy. Then, if you have the time, get the basic shapes down."/>
+      <Link ref="https://line-of-action.com/"/>
+    </Links>
+  </Title>
+  <Title Stage='2' stepName = " Redo Proko Homework" Checked="F">
+    <Description Data="Do the previous Homework Assignment from Proko's course again for good measure"></Description>
+    <Links>
+      <Tips text="Be sure to actually DO this excersice! You need to get good, you won't be able to make anything pretty if you slack off on figure drawing! Remember, it's not as crucual to get anatomy right, as much as getting the *figure* right. Get the flow of the character, not her pefect anatomy. Then, if you have the time, get the basic shapes down."/>
+      <Link ref="https://www.youtube.com/watch?v=H2A4SgWWQpM!list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"/>
+    </Links>
+  </Title>
+  <Title Stage='3' stepName = "Anatomy Lessons" Checked="F">
+    <Description Data="Go over the next lesson in Proko's Anatomy Tutorial and do the assignment given"></Description>
+    <Links>
+      <Tips text="Be sure to actually DO this excersice! You need to get good, you won't be able to make anything pretty if you slack off on figure drawing! Remember, it's not as crucual to get anatomy right, as much as getting the *figure* right. Get the flow of the character, not her pefect anatomy. Then, if you have the time, get the basic shapes down."/>
+      <Link ref="https://www.youtube.com/watch?v=H2A4SgWWQpM!list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"/>
+    </Links>
+  </Title>
+  <Title Stage='4' stepName = "Anatomy Study" Checked="F">
+    <Description Data="Draw one of following body parts: Spine, Hips, Ribcage, Shoulders, Arm, Leg, hand, Basic Head, Face details, hands, feet, Tits, Dick, Ass, Pussy"></Description>
+    <Links>
+      <Tips text="Mix it up each day. Take a body part and draw it in several perspectives and angles, trying to get the perspective right for it. Start with the basic shapes and refine them further."/>
+      <Link ref="https://line-of-action.com/"/>
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505305846054922/lmsketch_tutorial_1.png"/>
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505307951857675/lmsketch_tutorial_2.png"/>
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505311248580628/lmsketch_tutorial_3.png"/>
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505314763407370/lmsketch_tutorial_4.png"/>
+      <Link ref="http://marshmallowfury.tumblr.com/image/157874600808"/>
+      <Link ref="https://imgur.com/a/qXZtV0h"/>
+      <Link ref="https://i.pinimg.com/originals/8a/63/3d/8a633d8a4a7fefb6f3a86808918b56e6.jpg"/>
+      <Link ref="http://rapidfireart.com/wp-content/uploads/2013/05/how-to-draw-the-nose-front-view-828x1024-828x1024.jpg"/>
+      <Link ref="https://orig00.deviantart.net/2a8b/f/2013/057/2/3/reklama_by_nimportant-d5wb07o.jpg"/>
+      <Link ref="https://i3.wp.com/timberfloors.info/wp-content/uploads/2018/02/realistic-drawing-step-by-step-drawing-nose-step-by-step-how-to-draw-a-nose-step-step-realistic-nose-drawing-steps-realistic-mouth-drawing-step-by-step-realistic-pencil-drawing-tutorial-step-by-step.jpg?resize=450,300"/>
+    </Links>
+  </Title>
 </Save>

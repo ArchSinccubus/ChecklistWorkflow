@@ -7,7 +7,6 @@ using System.Xml.Serialization;
 
 namespace WpfApplication1
 {
-    [XmlRootAttribute("Title", Namespace = "http://www.cpandl.com", IsNullable = false)]
     public class Step
     { 
         public int Stage;
@@ -28,6 +27,7 @@ namespace WpfApplication1
             this.Description = desc;
             this.Tips = tips;
             this.links = Links;
+            convertLinks();
         }
 
         public Step(int stage, string title, string desc, string tips, List<string> Links,bool check, bool lastChecked)
@@ -39,6 +39,29 @@ namespace WpfApplication1
             this.Description = desc;
             this.Tips = tips;
             this.links = Links;
+            convertLinks();
+        }
+
+        public void convertLinks()
+        {
+            for (int i = 0; i < links.Count; i++)
+            {
+                if (links[i].ToLower().Contains("youtube"))
+                {
+                    links[i] = links[i].Replace("&", "!");
+                }
+            }
+        }
+
+        public void convertLinksback()
+        {
+            for (int i = 0; i < links.Count; i++)
+            {
+                if (links[i].ToLower().Contains("youtube"))
+                {
+                    links[i] = links[i].Replace("!", "&");
+                }
+            }
         }
     }
 }

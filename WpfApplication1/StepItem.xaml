@@ -4,31 +4,32 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApplication1"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}"
              mc:Ignorable="d" 
              x:Name="StepItemInfo"
-              Width="{Binding ElementName=Main_Window, Path=ActualWidth}">
-    <Grid Panel.ZIndex="99">
+             >
+    <Grid>
         <StackPanel>
             <Grid>
                 <Label x:Name="Label">test</Label>
-                <CheckBox x:Name="Checked" Height="16" Margin="200,5,26,5"/>
+                <CheckBox x:Name="Checked" Height="16" HorizontalAlignment="Right" Width="16" IsEnabled="{Binding Path=lastStepCompleted, Mode=OneWay}"/>
             </Grid>
             <Border Padding="10">
                 <TextBlock x:Name="Description" FontWeight="Bold" TextWrapping="Wrap" Margin="-10,0,0,0">
                 </TextBlock>
             </Border>
 
-            <Border BorderBrush="Black" BorderThickness="0 1 0 1" Background="Yellow"  Width="{Binding ElementName=Main_Window, Path=ActualWidth}">
+            <Border BorderBrush="Black" BorderThickness="0 1 0 1" Background="Yellow"  Width="{Binding ElementName=StepItemInfo, Path=ActualWidth}">
             </Border>
             <StackPanel Orientation="Vertical">
                 <Expander x:Name="Links" Header="Notes and Links" Panel.ZIndex="99">
                     <Grid>
 
                         <StackPanel x:Name="LinkPanel" Orientation="Vertical">
-                            <TextBlock x:Name="Tips" TextWrapping="Wrap" Width="{Binding ElementName=Main_Window, Path=ActualWidth}"></TextBlock>
+                            <TextBlock x:Name="Tips" TextWrapping="Wrap" Width="{Binding ElementName=StepItemInfo, Path=ActualWidth}"></TextBlock>
                             
                             <TextBlock FontWeight="Bold">Links:</TextBlock>
-                            <StackPanel Orientation="Horizontal" Visibility="Collapsed">
+                            <StackPanel x:Name="TipsList" Orientation="Horizontal" Visibility="Collapsed">
                                 <TextBox Width="236" ></TextBox>
                                 <Button Background="DarkGreen" BorderBrush="#004433">Save</Button>
                                 <Button Background="DarkRed" BorderBrush="#440000">Drop</Button>

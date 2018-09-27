@@ -50,7 +50,55 @@
     <Description Data="Draw the finer details of the body on top of the skelaton."></Description>
     <Links>
       <Tips text="Now this is the level where the final anatomy comes in. Don't forget, look at references of the limbs look like, make *sure* your chest doesn't end up facing forward again, make SURE your shoulders line up proper with the ass if need be. It's very important."/>
+      <Link ref="http://marshmallowfury.tumblr.com/image/157874600808"/>
+      <Link ref="https://imgur.com/a/qXZtV0h"/>
+      <Link ref="https://i.pinimg.com/originals/8a/63/3d/8a633d8a4a7fefb6f3a86808918b56e6.jpg"/>
+      <Link ref="http://rapidfireart.com/wp-content/uploads/2013/05/how-to-draw-the-nose-front-view-828x1024-828x1024.jpg"/>
+      <Link ref="https://orig00.deviantart.net/2a8b/f/2013/057/2/3/reklama_by_nimportant-d5wb07o.jpg"/>
+      <Link ref="https://i3.wp.com/timberfloors.info/wp-content/uploads/2018/02/realistic-drawing-step-by-step-drawing-nose-step-by-step-how-to-draw-a-nose-step-step-realistic-nose-drawing-steps-realistic-mouth-drawing-step-by-step-realistic-pencil-drawing-tutorial-step-by-step.jpg?resize=450,300"/>
+    </Links>
+  </Title>
+  <Title Stage='6' stepName = "Refine Sketch" Checked="False">
+    <Description Data="Refine the sketch and ask for critique, prepering for coloring"></Description>
+    <Links>
+      <Tips text="Get in details and other smaller niches. At this point go around asking for more last opinions before moving to coloring, and take those *seriously.* And for the LOVE of god don't be a bitch and throw another temper tantrum!"/>
       <Link ref="https://imgur.com/a/GgzxC0h"/>
+    </Links>
+  </Title>
+  <Title Stage='7' stepName = "Flat colors" Checked="False">
+    <Description Data="Flat color your piece, making sure to put things in their own layers"></Description>
+    <Links>
+      <Tips text="NAME YOUR LAYERS HERE! This is gonna save you a ton of headache down the line. Also, look up on color theory and make sure your colors aren't too dark or too light."/>
+      <Link ref="https://www.deviantart.com/meryalisonthompson/art/Skin-Palette-for-MyPaint-V2-301868920"/>
+      <Link ref="https://www.youtube.com/watch?v=e-Zsgv993Os"/>
+      <Link ref="https://www.deviantart.com/alizarinerose/art/Color-Theory-163093578"/>
+      <Link ref="https://www.deviantart.com/johnofthenorth/art/Color-Theory-Part-2-522938615"/>
+    </Links>
+  </Title>
+  <Title Stage='8' stepName = "Shading" Checked="False">
+    <Description Data="Do the basic shading for your piece, paying attention to light sources."></Description>
+    <Links>
+      <Tips text="Decide on a light source first and it's direction and work accordingly. LOOK AT BODY REFERNCES TO HOW THE MUSCLES REFLECT UNDER LIGHT AND SHADOW! Remember it's not just tube shading, different muscles create curves and bumps in the skin too."/>
+      <Link ref="https://www.deviantart.com/rika-dono/art/How-I-paint-Torso-Female-and-Male-531456466"/>
+      <Link ref="http://muscularstrength.com/uploads/froala/dd2f63873053f43bc5829b400f2b2d8847ccc4ce.jpg"/>
+      <Link ref="https://theanatomybody.com/upper-limb-muscles-of-the-body/upper-limb-muscles-of-the-body-upper-limb-anatomy-pictures-upper-limb-muscles-diagram-human/"/>
+      <Link ref="https://www.youtube.com/watch?v=HAoxxfDrEAU"/>
+      <Link ref="https://www.youtube.com/watch?v=e-Zsgv993Os"/>
+    </Links>
+  </Title>
+  <Title Stage='9' stepName = "Finishing Touches" Checked="False">
+    <Description Data="Take one more look at your work to make sure everything is in place."></Description>
+    <Links>
+      <Tips text="Do NOT get lazy! You have a lot of ideas in your head and you BETTER not get lazy about making sure everything is in place. If you draw something you better shade it properly and give everything a good final touch. Also, add background and such, but that's a story for another day."/>
+      <Link ref="https://imgur.com/a/GgzxC0h"/>
+    </Links>
+  </Title>
+  <Title Stage='9' stepName = "Sign your work and publish!" Checked="False">
+    <Description Data="One last step, don't forget to sign your work when you're done and to actually publish if you reached this step!"></Description>
+    <Links>
+      <Tips text="You know the drill hun. Tumblr, Discord, Twitter or whatever, Reddit the works."/>
+      <Link ref="https://www.deviantart.com/archsinccubus"/>
+      <Link ref="https://www.tumblr.com/blog/archlewdtime"/>
     </Links>
   </Title>
 </Save>

@@ -1,4 +1,4 @@
-<Save name="test">
+<Save name="test2">
   <Title Stage="0" stepName="Getting references" Checked="True">
     <Description Data="Search up a good pose to draw, and use DesingDoll if needed. Still, don't rely on it. Make sure you go for a live human if possible." />
     <Links>
@@ -14,7 +14,7 @@
       <Link ref="https://www.youtube.com/watch?v=BvrocH4noms" />
     </Links>
   </Title>
-  <Title Stage="2" stepName="Basic shapes" Checked="True">
+  <Title Stage="2" stepName="Basic shapes" Checked="False">
     <Description Data="Draw the SIMPLIFIED shapes of the body. Don't forget this one, it's very important!" />
     <Links>
       <Tips text="Perspective and proportions enter the scene more heavily here. Be sure to actually STUDY the shapes of the body, because before you got the fine details down you NEED to get the basics of what you're trying to draw." />

@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Name="Main_Window"
         Title="MainWindow" Width="250"
-        Loaded="Window_Loaded">
+        Loaded="Window_Loaded"
+        ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="19*"/>
@@ -17,18 +18,19 @@
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_File">
                     <MenuItem Header="_New" Click="MenuItem_Click" />
-                    <MenuItem Header="_Open" />
-                    <MenuItem Header="_Save" />
+                    <MenuItem Header="_Open" Click="MenuItem_Click_2" />
+                    <MenuItem Header="_Save" Click="MenuItem_Click_1" />
+                    <MenuItem Header="_Save as" Click="MenuItem_Click_5"/>
                     <Separator />
                     <MenuItem Header="_Exit" />
                 </MenuItem>
-                <MenuItem Header="_Saves">
-                    <MenuItem Header="_New" />
-                    <MenuItem Header="_Open" />
-                    <MenuItem Header="_Save" />
+                <MenuItem Header="_Mode">
+                    <MenuItem Header="_Practice Mode" Click="MenuItem_Click_3" />
+                    <Separator />
+                    <MenuItem Header="_Project Mode" Click="MenuItem_Click_4" />
                 </MenuItem>
             </Menu>
         </DockPanel>
-        <ListView x:Name="mainList" Grid.Row="1"  Width="240"/>
+        <ListView x:Name="mainList" Grid.Row="1" />
     </Grid>
 </Window>
