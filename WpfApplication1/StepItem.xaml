@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="WpfApplication1.StepItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApplication1"
+             mc:Ignorable="d" 
+             x:Name="StepItemInfo"
+              Width="{Binding ElementName=Main_Window, Path=ActualWidth}">
+    <Grid Panel.ZIndex="99">
+        <StackPanel>
+            <Grid>
+                <Label x:Name="Label">test</Label>
+                <CheckBox x:Name="Checked" Height="16" Margin="200,5,26,5"/>
+            </Grid>
+            <Border Padding="10">
+                <TextBlock x:Name="Description" FontWeight="Bold" TextWrapping="Wrap" Margin="-10,0,0,0">
+                </TextBlock>
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="0 1 0 1" Background="Yellow"  Width="{Binding ElementName=Main_Window, Path=ActualWidth}">
+            </Border>
+            <StackPanel Orientation="Vertical">
+                <Expander x:Name="Links" Header="Notes and Links" Panel.ZIndex="99">
+                    <Grid>
+
+                        <StackPanel x:Name="LinkPanel" Orientation="Vertical">
+                            <TextBlock x:Name="Tips" TextWrapping="Wrap" Width="{Binding ElementName=Main_Window, Path=ActualWidth}"></TextBlock>
+                            
+                            <TextBlock FontWeight="Bold">Links:</TextBlock>
+                            <StackPanel Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBox Width="236" ></TextBox>
+                                <Button Background="DarkGreen" BorderBrush="#004433">Save</Button>
+                                <Button Background="DarkRed" BorderBrush="#440000">Drop</Button>
+                            </StackPanel>
+                            <Button x:Name="add"  Visibility="Collapsed">Add</Button>
+                        </StackPanel>
+                    </Grid>
+                </Expander>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

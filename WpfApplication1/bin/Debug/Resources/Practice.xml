@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Save name="Practice">
+  <Title Stage='0' stepName = "Figure Training" Checked="F">
+    <Description Data="Use Line of Action to practice figure and pose drawing for 10 minutes"></Description>
+    <Links>
+      <Tips text="Be sure to actually DO this excersice! You need to get good, you won't be able to make anything pretty if you slack off on figure drawing! Remember, it's not as crucual to get anatomy right, as much as getting the *figure* right. Get the flow of the character, not her pefect anatomy. Then, if you have the time, get the basic shapes down."/>
+      <Link ref="https://line-of-action.com/"/>
+    </Links>
+  </Title>
+</Save>
