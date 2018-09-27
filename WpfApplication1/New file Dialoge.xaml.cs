@@ -34,5 +34,6 @@ namespace WpfApplication1
             ((MainWindow)Application.Current.MainWindow).createSave(textBox.Text);
             this.Close();
         }
+
     }
 }

@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
         Name="Main_Window"
-        Title="MainWindow" Width="250"
+        Title="New project" Width="250"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
         Loaded="Window_Loaded"
+        Topmost="True"
         ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>

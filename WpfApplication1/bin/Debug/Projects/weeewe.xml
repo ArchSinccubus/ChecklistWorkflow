@@ -1,0 +1,105 @@
+<Save name="weeewe">
+  <Title Stage="0" stepName="Getting references" Checked="True">
+    <Description Data="Search up a good pose to draw, and use DesingDoll if needed. Still, don't rely on it. Make sure you go for a live human if possible." />
+    <Links>
+      <Tips text="Be sure to study the pose you take very closely! Note down everything you see, and do your best to note the Line of Action of the pose.&#xD;&#xA;&#xD;&#xA;" />
+      <Link ref="https://line-of-action.com/" />
+      <Link ref="https://www.google.co.il/" />
+    </Links>
+  </Title>
+  <Title Stage="1" stepName="Get the figure down" Checked="True">
+    <Description Data="Stick level. Use SCI to jot down the lines of the pose, keeping flow in motion." />
+    <Links>
+      <Tips text="Remember that it's not about perfect anatomy yet, it's about good feeling and flow of your figure. Be sure to keep that in mind and *compare* to the original. Also try and visualize the perspective in this phase." />
+      <Link ref="https://www.youtube.com/playlist?list=PLtG4P3lq8RHGuMuprDarMz_Y9Fbw_d2ws" />
+      <Link ref="https://www.youtube.com/watch?v=BvrocH4noms" />
+      <Link ref="https://www.google.co.il/" />
+    </Links>
+  </Title>
+  <Title Stage="2" stepName="Basic shapes" Checked="True">
+    <Description Data="Draw the SIMPLIFIED shapes of the body. Don't forget this one, it's very important!" />
+    <Links>
+      <Tips text="Perspective and proportions enter the scene more heavily here. Be sure to actually STUDY the shapes of the body, because before you got the fine details down you NEED to get the basics of what you're trying to draw." />
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505305846054922/lmsketch_tutorial_1.png" />
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505307951857675/lmsketch_tutorial_2.png" />
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505311248580628/lmsketch_tutorial_3.png" />
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505314763407370/lmsketch_tutorial_4.png" />
+      <Link ref="http://marshmallowfury.tumblr.com/image/157874600808" />
+      <Link ref="https://imgur.com/a/qXZtV0h" />
+    </Links>
+  </Title>
+  <Title Stage="3" stepName="Basic Head details" Checked="True">
+    <Description Data="Get the most rudamental porportions of the head down. Don't forget to look at the refs to know how big things should be and for their perspectives!" />
+    <Links>
+      <Tips text="Perspectives and porportions of the head are KEY. You CANNOT fuck this up! You HAVE To get this done right, even if it takes you time!" />
+      <Link ref="https://imgur.com/a/GgzxC0h" />
+    </Links>
+  </Title>
+  <Title Stage="4" stepName="Define the shapes a but more" Checked="False">
+    <Description Data="Start refining your shapes. Be sure to still look at the reference" />
+    <Links>
+      <Tips text="YOUR REFERENCES ARE KEY! Make sure to get more than one, and actually try to *learn* from it for a fucking change. Remember, you need to look at what you're drawing, learn from it, and then try and do it in your own way. Don't forget perspectives and proportions! This is also the level where you sketch the privates a bit more prevelantly." />
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505305846054922/lmsketch_tutorial_1.png" />
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505307951857675/lmsketch_tutorial_2.png" />
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505311248580628/lmsketch_tutorial_3.png" />
+      <Link ref="https://cdn.discordapp.com/attachments/494505203953958923/494505314763407370/lmsketch_tutorial_4.png" />
+      <Link ref="http://marshmallowfury.tumblr.com/image/157874600808" />
+      <Link ref="https://imgur.com/a/qXZtV0h" />
+    </Links>
+  </Title>
+  <Title Stage="5" stepName="Finer Anatomy." Checked="False">
+    <Description Data="Draw the finer details of the body on top of the skelaton." />
+    <Links>
+      <Tips text="Now this is the level where the final anatomy comes in. Don't forget, look at references of the limbs look like, make *sure* your chest doesn't end up facing forward again, make SURE your shoulders line up proper with the ass if need be. It's very important." />
+      <Link ref="http://marshmallowfury.tumblr.com/image/157874600808" />
+      <Link ref="https://imgur.com/a/qXZtV0h" />
+      <Link ref="https://i.pinimg.com/originals/8a/63/3d/8a633d8a4a7fefb6f3a86808918b56e6.jpg" />
+      <Link ref="http://rapidfireart.com/wp-content/uploads/2013/05/how-to-draw-the-nose-front-view-828x1024-828x1024.jpg" />
+      <Link ref="https://orig00.deviantart.net/2a8b/f/2013/057/2/3/reklama_by_nimportant-d5wb07o.jpg" />
+      <Link ref="https://i3.wp.com/timberfloors.info/wp-content/uploads/2018/02/realistic-drawing-step-by-step-drawing-nose-step-by-step-how-to-draw-a-nose-step-step-realistic-nose-drawing-steps-realistic-mouth-drawing-step-by-step-realistic-pencil-drawing-tutorial-step-by-step.jpg?resize=450,300" />
+    </Links>
+  </Title>
+  <Title Stage="6" stepName="Refine Sketch" Checked="False">
+    <Description Data="Refine the sketch and ask for critique, prepering for coloring" />
+    <Links>
+      <Tips text="Get in details and other smaller niches. At this point go around asking for more last opinions before moving to coloring, and take those *seriously.* And for the LOVE of god don't be a bitch and throw another temper tantrum!" />
+      <Link ref="https://imgur.com/a/GgzxC0h" />
+    </Links>
+  </Title>
+  <Title Stage="7" stepName="Flat colors" Checked="False">
+    <Description Data="Flat color your piece, making sure to put things in their own layers" />
+    <Links>
+      <Tips text="NAME YOUR LAYERS HERE! This is gonna save you a ton of headache down the line. Also, look up on color theory and make sure your colors aren't too dark or too light." />
+      <Link ref="https://www.deviantart.com/meryalisonthompson/art/Skin-Palette-for-MyPaint-V2-301868920" />
+      <Link ref="https://www.youtube.com/watch?v=e-Zsgv993Os" />
+      <Link ref="https://www.deviantart.com/alizarinerose/art/Color-Theory-163093578" />
+      <Link ref="https://www.deviantart.com/johnofthenorth/art/Color-Theory-Part-2-522938615" />
+    </Links>
+  </Title>
+  <Title Stage="8" stepName="Shading" Checked="False">
+    <Description Data="Do the basic shading for your piece, paying attention to light sources." />
+    <Links>
+      <Tips text="Decide on a light source first and it's direction and work accordingly. LOOK AT BODY REFERNCES TO HOW THE MUSCLES REFLECT UNDER LIGHT AND SHADOW! Remember it's not just tube shading, different muscles create curves and bumps in the skin too." />
+      <Link ref="https://www.deviantart.com/rika-dono/art/How-I-paint-Torso-Female-and-Male-531456466" />
+      <Link ref="http://muscularstrength.com/uploads/froala/dd2f63873053f43bc5829b400f2b2d8847ccc4ce.jpg" />
+      <Link ref="https://theanatomybody.com/upper-limb-muscles-of-the-body/upper-limb-muscles-of-the-body-upper-limb-anatomy-pictures-upper-limb-muscles-diagram-human/" />
+      <Link ref="https://www.youtube.com/watch?v=HAoxxfDrEAU" />
+      <Link ref="https://www.youtube.com/watch?v=e-Zsgv993Os" />
+    </Links>
+  </Title>
+  <Title Stage="9" stepName="Finishing Touches" Checked="False">
+    <Description Data="Take one more look at your work to make sure everything is in place." />
+    <Links>
+      <Tips text="Do NOT get lazy! You have a lot of ideas in your head and you BETTER not get lazy about making sure everything is in place. If you draw something you better shade it properly and give everything a good final touch. Also, add background and such, but that's a story for another day." />
+      <Link ref="https://imgur.com/a/GgzxC0h" />
+    </Links>
+  </Title>
+  <Title Stage="9" stepName="Sign your work and publish!" Checked="False">
+    <Description Data="One last step, don't forget to sign your work when you're done and to actually publish if you reached this step!" />
+    <Links>
+      <Tips text="You know the drill hun. Tumblr, Discord, Twitter or whatever, Reddit the works." />
+      <Link ref="https://www.deviantart.com/archsinccubus" />
+      <Link ref="https://www.tumblr.com/blog/archlewdtime" />
+    </Links>
+  </Title>
+</Save>

@@ -11,20 +11,20 @@
     <Description Data="Pick a bunch of Geometrical Shapes and Draw them in 4 different perspectives each"></Description>
     <Links>
       <Tips text="Be sure to actually DO this excersice! You need to get good, you won't be able to make anything pretty if you slack off on figure drawing! Remember, it's not as crucual to get anatomy right, as much as getting the *figure* right. Get the flow of the character, not her pefect anatomy. Then, if you have the time, get the basic shapes down."/>
-      <Link ref="https://line-of-action.com/"/>
+      <Link ref="https://i.pinimg.com/originals/39/f5/3f/39f53f016710d7ee25fdd465bb717df5.jpg"/>
     </Links>
   </Title>
   <Title Stage='2' stepName = " Redo Proko Homework" Checked="F">
     <Description Data="Do the previous Homework Assignment from Proko's course again for good measure"></Description>
     <Links>
-      <Tips text="Be sure to actually DO this excersice! You need to get good, you won't be able to make anything pretty if you slack off on figure drawing! Remember, it's not as crucual to get anatomy right, as much as getting the *figure* right. Get the flow of the character, not her pefect anatomy. Then, if you have the time, get the basic shapes down."/>
+      <Tips text="Get as much practice as you can with this. You need to make sure you remember and internalize this stuff if you wanna get any better."/>
       <Link ref="https://www.youtube.com/watch?v=H2A4SgWWQpM!list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"/>
     </Links>
   </Title>
   <Title Stage='3' stepName = "Anatomy Lessons" Checked="F">
     <Description Data="Go over the next lesson in Proko's Anatomy Tutorial and do the assignment given"></Description>
     <Links>
-      <Tips text="Be sure to actually DO this excersice! You need to get good, you won't be able to make anything pretty if you slack off on figure drawing! Remember, it's not as crucual to get anatomy right, as much as getting the *figure* right. Get the flow of the character, not her pefect anatomy. Then, if you have the time, get the basic shapes down."/>
+      <Tips text="Just watch one portion of the course at a time, don't overwhelm yourself. If need be watch them once a week."/>
       <Link ref="https://www.youtube.com/watch?v=H2A4SgWWQpM!list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"/>
     </Links>
   </Title>
@@ -43,6 +43,32 @@
       <Link ref="http://rapidfireart.com/wp-content/uploads/2013/05/how-to-draw-the-nose-front-view-828x1024-828x1024.jpg"/>
       <Link ref="https://orig00.deviantart.net/2a8b/f/2013/057/2/3/reklama_by_nimportant-d5wb07o.jpg"/>
       <Link ref="https://i3.wp.com/timberfloors.info/wp-content/uploads/2018/02/realistic-drawing-step-by-step-drawing-nose-step-by-step-how-to-draw-a-nose-step-step-realistic-nose-drawing-steps-realistic-mouth-drawing-step-by-step-realistic-pencil-drawing-tutorial-step-by-step.jpg?resize=450,300"/>
+    </Links>
+  </Title>
+  <Title Stage='5' stepName = "Liquids Practice" Checked="F">
+    <Description Data="Draw a basic shape and try to draw water/any other liquid flowing on it"></Description>
+    <Links>
+      <Tips text="Remember to use real life examples as well as online ones! Also look up porn, why don't you. You have water around you, as well as... Other liquids, *use* it!"/>
+      <Link ref="https://www.deviantart.com/hews-hack/art/How-to-draw-White-Liquid-481670238"/>
+      <Link ref="https://www.deviantart.com/blackdahlia/art/Liquid-on-Skin-Tutorial-383970691"/>
+      <Link ref="https://d.facdn.net/art/kudalyn/1492970724/1492970702.kudalyn_cumtutorial.png"/>
+      <Link ref="https://www.youtube.com/watch?v=ZTB-Ty_k9vY"/>
+    </Links>
+  </Title>
+  <Title Stage='6' stepName = "Clothes Practice" Checked="F">
+    <Description Data="Draw clothes. Practice folds, thick/thin clothing, and bends"></Description>
+    <Links>
+      <Tips text="Remember to use real life examples, as well as online ones! Look yourself in the mirror, and *study* how the folds work. Take a sketchbook with you and try to sketch in front of a mirror."/>
+      <Link ref="https://www.deviantart.com/shark-bomb/art/Clothing-Tutorial-Notes-385271898"/>
+      <Link ref="https://clipartxtras.com/categories/view/074200ae3a22f6619c45ee3f59befeabdf49c062/drawing-creases-in-clothes.html"/>
+      <Link ref="https://img.clipartxtras.com/ed10bfb805659765a02d674b5b257d03_figure-drawing-resources-mr-stepp-drawing-creases-in-clothes_960-680.jpeg"/>
+    </Links>
+  </Title>
+  <Title Stage='7' stepName = "Shading Practice" Checked="F">
+    <Description Data="Draw basic shapes and choose a lightsource, and then try to shade according to that light source."></Description>
+    <Links>
+      <Tips text="Look up Tutorials and look at real life! Also, try and use new techniques for shadig, that Pyrrha experiment was good, now make it *better*"/>
+      <Link ref="https://www.youtube.com/watch?v=H2A4SgWWQpM!list=PLtG4P3lq8RHFBeVaruf2JjyQmZJH4__Zv"/>
     </Links>
   </Title>
 </Save>

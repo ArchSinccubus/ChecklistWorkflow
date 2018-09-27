@@ -26,11 +26,14 @@ namespace WpfApplication1
     {
         public double windowWidth;
         public List<Step> CurrentList;
+
         public string SaveName;
+
         public bool PracticeMode;
 
         public MainWindow()
         {
+            SaveName = "New Project";
             PracticeMode = false;
             InitializeComponent();
         }
@@ -44,6 +47,7 @@ namespace WpfApplication1
             SaveName = projectName;
             mainList.Items.Clear();
             OrganizeList(steps);
+            this.Title = (projectName != "") ? projectName : "New Project";
         }
 
         public void SaveSave(string projectName)
@@ -118,6 +122,7 @@ namespace WpfApplication1
             SaveName = projectName;
             OrganizeList(steps);
             updateChecked();
+            this.Title = projectName;
         }
         #endregion       
 
@@ -203,14 +208,16 @@ namespace WpfApplication1
         {
             List<Step> steps = new List<Step>();
 
-            foreach (var item in mainList.Items)
+            for (int i = 0; i < mainList.Items.Count; i++)
             {
+                var item = mainList.Items[i];
                 if (item is StepItem)
                 {
                     Step s = (item as StepItem).ControlToObject();
+                    s.LastChecked = (i>0) ? steps[i/2 - 1].Checked : true;
                     steps.Add(s);
-                }
 
+                }
             }
 
             return steps;
@@ -271,6 +278,7 @@ namespace WpfApplication1
 
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
+            //updateChecked();
             SaveSave(SaveName);
             List<Step> steps = GenerateStepListFromXMLFile("Resources", "Practice");
             CurrentList = GenerateStepListFromVisualTree();
@@ -284,6 +292,7 @@ namespace WpfApplication1
             mainList.Items.Clear();
             PracticeMode = false;
             OrganizeList(CurrentList);
+            updateChecked();
             SaveSave(SaveName);
         }
 

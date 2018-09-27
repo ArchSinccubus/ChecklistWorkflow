@@ -7,7 +7,11 @@
              DataContext="{Binding RelativeSource={RelativeSource Self}}"
              mc:Ignorable="d" 
              x:Name="StepItemInfo"
-             >
+             Width="200">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </UserControl.Resources>
+
     <Grid>
         <StackPanel>
             <Grid>
@@ -25,20 +29,24 @@
                 <Expander x:Name="Links" Header="Notes and Links" Panel.ZIndex="99">
                     <Grid>
 
-                        <StackPanel x:Name="LinkPanel" Orientation="Vertical">
-                            <TextBlock x:Name="Tips" TextWrapping="Wrap" Width="{Binding ElementName=StepItemInfo, Path=ActualWidth}"></TextBlock>
-                            
+                        <StackPanel x:Name="LinkPanel" Orientation="Vertical" Grid.ColumnSpan="2">
+                            <RichTextBox x:Name="Tips" Width="{Binding ElementName=StepItemInfo, Path=ActualWidth}" IsEnabled="{Binding Path=Editing, Mode=OneWay, FallbackValue=False}"></RichTextBox>
+
                             <TextBlock FontWeight="Bold">Links:</TextBlock>
-                            <StackPanel x:Name="TipsList" Orientation="Horizontal" Visibility="Collapsed">
-                                <TextBox Width="236" ></TextBox>
-                                <Button Background="DarkGreen" BorderBrush="#004433">Save</Button>
-                                <Button Background="DarkRed" BorderBrush="#440000">Drop</Button>
-                            </StackPanel>
-                            <Button x:Name="add"  Visibility="Collapsed">Add</Button>
+                            <Grid x:Name="TipsList" Visibility="{Binding Path=Editing, Mode=OneWay, Converter={StaticResource BoolToVis}, FallbackValue=Collapsed}" Width="200">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="169*"/>
+                                    <ColumnDefinition Width="31*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBox x:Name="NewlinkTextBox"/>
+                                <Button x:Name="AddLinkButton" Background="DarkGreen" BorderBrush="#004433" Click="AddLinkButton_Click" HorizontalAlignment="Left" Grid.Column="1">Save</Button>
+                            </Grid>
+                            <Button x:Name="EditModeButton" Visibility="Visible" Click="EditModeButton_Click" >Edit Mode</Button>
                         </StackPanel>
                     </Grid>
                 </Expander>
             </StackPanel>
         </StackPanel>
+        <Button x:Name="RemoveLinkButton" Background="DarkRed" BorderBrush="#440000" Visibility="Collapsed" HorizontalAlignment="Right" Height="20" VerticalAlignment="Bottom" Click="RemoveLinkButton_Click">Drop</Button>
     </Grid>
 </UserControl>
